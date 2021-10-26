@@ -1,4 +1,4 @@
-package org.tian.nio;
+package org.tian.nio.buffer;
 
 import java.nio.IntBuffer;
 
