@@ -11,6 +11,7 @@
 
     <modules>
         <module>BIO-example</module>
+        <module>NIO-example</module>
     </modules>
 
     <dependencyManagement>
