@@ -9,7 +9,7 @@ import java.nio.channels.FileChannel;
  * @author tianmh
  * @date create by 2021/10/26 14:29
  */
-public class NIOFileChannel02 {
+public class NIOFileChannelBuffToBuff {
     private static final String ROOT_PATH = System.getProperty("user.dir");
 
     public static void main(String[] args) throws Exception{
