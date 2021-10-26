@@ -32,6 +32,8 @@ public class NIOFileChannelFileToFile {
             byteBuffer.flip();
             outputChannel.write(byteBuffer);
         }
+        inputChannel.close();
+        outputChannel.close();
         fileInputStream.close();
         fileOutputStream.close();
     }
